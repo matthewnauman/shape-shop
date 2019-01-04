@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent xmlns:ns="Microsoft.Xna.Framework">
+  <Asset Type="ShapeShopData.Models.Shape">
+    <Name>Shape 1</Name>
+    <Key>1</Key>
+    <TextureContentName>Shape1</TextureContentName>
+    <MusicCueName>note1</MusicCueName>
+    <BaseMatrixDimensions>3 3</BaseMatrixDimensions>
+    <TileSize>48 48</TileSize>
+    <BaseMatrix>
+      <Item>0 1 0</Item>
+      <Item>1 1 1</Item>
+      <Item>0 1 0</Item>
+    </BaseMatrix>
+    <BaseScreenPosition>640 360</BaseScreenPosition>
+  </Asset>
+</XnaContent>

@@ -1,0 +1,253 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\MonoGame\v3.0\MonoGame.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\MonoGame\v3.0\MonoGame.Common.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{664BD3FA-865F-46A1-9693-852FA10C8533}</ProjectGuid>
+    <OutputType>AppContainerExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ShapeShop</RootNamespace>
+    <AssemblyName>ShapeShop</AssemblyName>
+    <DefaultLanguage>en-US</DefaultLanguage>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetPlatformVersion Condition=" '$(TargetPlatformVersion)' == '' ">10.0.17134.0</TargetPlatformVersion>
+    <TargetPlatformMinVersion>10.0.16299.0</TargetPlatformMinVersion>
+    <MinimumVisualStudioVersion>14</MinimumVisualStudioVersion>
+    <EnableDotNetNativeCompatibleProfile>true</EnableDotNetNativeCompatibleProfile>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{A5A43C5B-DE2A-4C0C-9213-0A381AF9435A};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <PackageCertificateKeyFile>ShapeShop_StoreKey.pfx</PackageCertificateKeyFile>
+    <MonoGamePlatform>WindowsStoreApp</MonoGamePlatform>
+    <PackageCertificateThumbprint>8D46F6FF437D228CF59151AB42AFD4652D47494D</PackageCertificateThumbprint>
+    <GenerateAppInstallerFile>False</GenerateAppInstallerFile>
+    <AppxAutoIncrementPackageRevision>True</AppxAutoIncrementPackageRevision>
+    <AppxBundle>Always</AppxBundle>
+    <AppxBundlePlatforms>x86|x64|arm</AppxBundlePlatforms>
+    <AppInstallerUpdateFrequency>1</AppInstallerUpdateFrequency>
+    <AppInstallerCheckForUpdateFrequency>OnApplicationRun</AppInstallerCheckForUpdateFrequency>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|ARM'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\WindowsUniversal\$(Platform)\$(Configuration)\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_UAP</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>ARM</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|ARM'">
+    <OutputPath>bin\WindowsUniversal\$(Platform)\$(Configuration)\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_UAP</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>ARM</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+    <UseDotNetNativeToolchain>true</UseDotNetNativeToolchain>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\WindowsUniversal\$(Platform)\$(Configuration)\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_UAP</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\WindowsUniversal\$(Platform)\$(Configuration)\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_UAP</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+    <UseDotNetNativeToolchain>true</UseDotNetNativeToolchain>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\WindowsUniversal\$(Platform)\$(Configuration)\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_UAP</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\WindowsUniversal\$(Platform)\$(Configuration)\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_UAP</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+    <UseDotNetNativeToolchain>true</UseDotNetNativeToolchain>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
+  </PropertyGroup>
+  <ItemGroup>
+    <!-- A reference to the entire .Net Framework and Windows SDK are automatically included -->
+    <Reference Include="MonoGame.Framework">
+      <HintPath>$(MonoGameInstallDirectory)\MonoGame\v3.0\Assemblies\WindowsUniversal\MonoGame.Framework.dll</HintPath>
+    </Reference>
+    <Reference Include="MonoGame.Framework.Net">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\MonoGame\v3.0\Assemblies\WindowsUniversal\MonoGame.Framework.Net.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="GameEngine\AudioManager.cs" />
+    <Compile Include="Debug\CrashDebugGame.cs" />
+    <Compile Include="Debug\DebugTools.cs" />
+    <Compile Include="Debug\SafeArea.cs" />
+    <Compile Include="GameSession\SignInManager.cs" />
+    <Compile Include="UI\Fonts.cs" />
+    <Compile Include="Game.cs" />
+    <Compile Include="GameEngine\InputManager.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UI\Cursor.cs" />
+    <Compile Include="GameEngine\PuzzleEngine.cs" />
+    <Compile Include="UI\GameScreen.cs" />
+    <Compile Include="GameEngine\ScreenManager.cs" />
+    <Compile Include="GameSession\Player.cs" />
+    <Compile Include="GameSession\PlayerSaveData.cs" />
+    <Compile Include="GameSession\PuzzleSetSaveData.cs" />
+    <Compile Include="GameSession\SaveGameDescription.cs" />
+    <Compile Include="GameSession\Session.cs" />
+    <Compile Include="GameSession\StorageManager.cs" />
+    <Compile Include="UI\BackgroundCogSprite.cs" />
+    <Compile Include="UI\CreditsBackground.cs" />
+    <Compile Include="UI\CreditsConsole.cs" />
+    <Compile Include="UI\CreditsPanel.cs" />
+    <Compile Include="UI\HelpBoxScreen.cs" />
+    <Compile Include="UI\HelpPanel.cs" />
+    <Compile Include="UI\HintManager.cs" />
+    <Compile Include="UI\MainGameScreen.cs" />
+    <Compile Include="UI\MessageBoxScreen.cs" />
+    <Compile Include="UI\PickerConsole.cs" />
+    <Compile Include="UI\PickerEntry.cs" />
+    <Compile Include="UI\PickerPanel.cs" />
+    <Compile Include="UI\PuzzleCog.cs" />
+    <Compile Include="UI\PuzzlePanel.cs" />
+    <Compile Include="UI\SaveLoadSlot.cs" />
+    <Compile Include="UI\SingingInMessageBoxScreen.cs" />
+    <Compile Include="UI\SignOutMessageBoxScreen.cs" />
+    <Compile Include="UI\SignInMessageBoxScreen.cs" />
+    <Compile Include="UI\SlotPanel.cs" />
+    <Compile Include="UI\SplashScreen.cs" />
+    <Compile Include="UI\StorageDeviceIndicator.cs" />
+    <Compile Include="UI\StorageDeviceWarningScreen.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest">
+      <SubType>Designer</SubType>
+    </AppxManifest>
+    <Content Include="Assets\AppList\AppList.scale-100.png" />
+    <Content Include="Assets\AppList\AppList.scale-125.png" />
+    <Content Include="Assets\AppList\AppList.scale-150.png" />
+    <Content Include="Assets\AppList\AppList.scale-200.png" />
+    <Content Include="Assets\AppList\AppList.scale-400.png" />
+    <Content Include="Assets\AppList\AppList.targetsize-16_altform-unplated.png" />
+    <Content Include="Assets\AppList\AppList.targetsize-20_altform-unplated.png" />
+    <Content Include="Assets\AppList\AppList.targetsize-24_altform-unplated.png" />
+    <Content Include="Assets\AppList\AppList.targetsize-256_altform-unplated.png" />
+    <Content Include="Assets\AppList\AppList.targetsize-30_altform-unplated.png" />
+    <Content Include="Assets\AppList\AppList.targetsize-32_altform-unplated.png" />
+    <Content Include="Assets\AppList\AppList.targetsize-36_altform-unplated.png" />
+    <Content Include="Assets\AppList\AppList.targetsize-40_altform-unplated.png" />
+    <Content Include="Assets\AppList\AppList.targetsize-48_altform-unplated.png" />
+    <Content Include="Assets\AppList\AppList.targetsize-60_altform-unplated.png" />
+    <Content Include="Assets\AppList\AppList.targetsize-64_altform-unplated.png" />
+    <Content Include="Assets\AppList\AppList.targetsize-72_altform-unplated.png" />
+    <Content Include="Assets\AppList\AppList.targetsize-80_altform-unplated.png" />
+    <Content Include="Assets\AppList\AppList.targetsize-96_altform-unplated.png" />
+    <Content Include="Assets\BadgeLogo.scale-400.png" />
+    <Content Include="Assets\cog-300px.png" />
+    <Content Include="Assets\Large\Large310x310Logo.scale-100.png" />
+    <Content Include="Assets\Large\Large310x310Logo.scale-125.png" />
+    <Content Include="Assets\Large\Large310x310Logo.scale-150.png" />
+    <Content Include="Assets\Large\Large310x310Logo.scale-200.png" />
+    <Content Include="Assets\Medium\Medium150x150Logo.scale-100.png" />
+    <Content Include="Assets\Medium\Medium150x150Logo.scale-125.png" />
+    <Content Include="Assets\Medium\Medium150x150Logo.scale-150.png" />
+    <Content Include="Assets\Medium\Medium150x150Logo.scale-200.png" />
+    <Content Include="Assets\Small\Small71x71Logo.scale-100.png" />
+    <Content Include="Assets\Small\Small71x71Logo.scale-125.png" />
+    <Content Include="Assets\Small\Small71x71Logo.scale-150.png" />
+    <Content Include="Assets\Small\Small71x71Logo.scale-200.png" />
+    <Content Include="Assets\Small\Small71x71Logo.scale-400.png" />
+    <Content Include="Assets\SplashScreen.scale-200.png" />
+    <Content Include="Assets\Store\StoreLogo.scale-100.png" />
+    <Content Include="Assets\Store\StoreLogo.scale-125.png" />
+    <Content Include="Assets\Store\StoreLogo.scale-150.png" />
+    <Content Include="Assets\Store\StoreLogo.scale-200.png" />
+    <Content Include="Assets\Store\StoreLogo.scale-400.png" />
+    <Content Include="Assets\Wide310x150Logo.scale-100.jpg" />
+    <Content Include="Assets\Wide310x150Logo.scale-200.jpg" />
+    <Content Include="Assets\Wide310x150Logo.scale-400.jpg" />
+    <Content Include="Content\ShapeShopAudio.xgs">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sound Bank.xsb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Wave Bank.xwb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="ShapeShop_StoreKey.pfx" />
+    <None Include="ShapeShop_TemporaryKey.pfx" />
+    <Content Include="xboxservices.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Package.StoreAssociation.xml" />
+    <Content Include="Properties\Default.rd.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <MonoGameContentReference Include="Content\Content.mgcb">
+      <SubType>Designer</SubType>
+    </MonoGameContentReference>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform">
+      <Version>6.1.9</Version>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Xbox.Live.SDK.WinRT.UWP">
+      <Version>2018.6.20181010.2</Version>
+    </PackageReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ShapeShopData\ShapeShopData.csproj">
+      <Project>{6f645fc0-70e2-4045-9a29-7d42ac573369}</Project>
+      <Name>ShapeShopData</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
+    <VisualStudioVersion>14.0</VisualStudioVersion>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\WindowsXaml\v$(VisualStudioVersion)\Microsoft.Windows.UI.Xaml.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\MonoGame\v3.0\MonoGame.Content.Builder.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent xmlns:ns="Microsoft.Xna.Framework">
+  <Asset Type="ShapeShopData.Models.PuzzleSet">
+    <AssetName>PuzzleSets\PuzzleSetDev</AssetName>
+    <Name>Shape Shop Puzzle Set</Name>
+    <TileTextureName>puzzleTileSet</TileTextureName>
+    <UnlockedAtOnce>10</UnlockedAtOnce>
+    <Key>1</Key>
+    <PuzzleContentNames>      
+      <Item>3\Puzzle3_1</Item>
+      <Item>3\Puzzle3_2</Item>
+      <Item>3\Puzzle3_3</Item>
+      <Item>3\Puzzle3_4</Item>
+      <Item>3\Puzzle3_5</Item>
+      <Item>3\Puzzle3_6</Item>
+      <Item>3\Puzzle3_7</Item>
+      <Item>3\Puzzle3_8</Item>
+      <Item>3\Puzzle3_9</Item>
+      <Item>3\Puzzle3_10</Item>
+
+      <Item>4\Puzzle4_1</Item>
+      <Item>4\Puzzle4_2</Item>
+      <Item>4\Puzzle4_3</Item>
+      <Item>4\Puzzle4_4</Item>
+      <Item>4\Puzzle4_5</Item>
+      <Item>4\Puzzle4_6</Item>
+      <Item>4\Puzzle4_7</Item>
+      <Item>4\Puzzle4_8</Item>
+      <Item>4\Puzzle4_9</Item>
+      <Item>4\Puzzle4_10</Item>
+
+      <Item>5\Puzzle5_1</Item>
+      <Item>5\Puzzle5_2</Item>
+      <Item>5\Puzzle5_3</Item>
+      <Item>5\Puzzle5_4</Item>
+      <Item>5\Puzzle5_5</Item>
+      <Item>5\Puzzle5_6</Item>
+      <Item>5\Puzzle5_7</Item>
+      <Item>5\Puzzle5_8</Item>
+      <Item>5\Puzzle5_9</Item>
+      <Item>5\Puzzle5_10</Item>
+
+      <Item>6\Puzzle6_1</Item>
+      <Item>6\Puzzle6_2</Item>
+      <Item>6\Puzzle6_3</Item>
+      <Item>6\Puzzle6_4</Item>
+      <Item>6\Puzzle6_5</Item>
+      <Item>6\Puzzle6_6</Item>
+      <Item>6\Puzzle6_7</Item>
+      <Item>6\Puzzle6_8</Item>
+      <Item>6\Puzzle6_9</Item>
+      <Item>6\Puzzle6_10</Item>
+
+      <Item>7\Puzzle7_1</Item>
+      <Item>7\Puzzle7_2</Item>
+      <Item>7\Puzzle7_3</Item>
+      <Item>7\Puzzle7_4</Item>
+      <Item>7\Puzzle7_5</Item>
+      <Item>7\Puzzle7_6</Item>
+      <Item>7\Puzzle7_7</Item>
+      <Item>7\Puzzle7_8</Item>
+      <Item>7\Puzzle7_9</Item>
+      <Item>7\Puzzle7_10</Item>
+
+      <Item>8\Puzzle8_1</Item>
+      <Item>8\Puzzle8_2</Item>
+      <Item>8\Puzzle8_3</Item>
+      <Item>8\Puzzle8_4</Item>
+      <Item>8\Puzzle8_5</Item>
+      <Item>8\Puzzle8_6</Item>
+      <Item>8\Puzzle8_7</Item>
+      <Item>8\Puzzle8_8</Item>
+      <Item>8\Puzzle8_9</Item>
+      <Item>8\Puzzle8_10</Item>
+
+      <Item>9\Puzzle9_1</Item>
+      <Item>9\Puzzle9_2</Item>
+      <Item>9\Puzzle9_3</Item>
+      <Item>9\Puzzle9_4</Item>
+      <Item>9\Puzzle9_5</Item>
+      <Item>9\Puzzle9_6</Item>
+      <Item>9\Puzzle9_7</Item>
+      <Item>9\Puzzle9_8</Item>
+      <Item>9\Puzzle9_9</Item>
+      <Item>9\Puzzle9_10</Item>
+
+      <Item>10\Puzzle10_1</Item>
+      <Item>10\Puzzle10_2</Item>
+      <Item>10\Puzzle10_3</Item>
+      <Item>10\Puzzle10_4</Item>
+      <Item>10\Puzzle10_5</Item>
+      <Item>10\Puzzle10_6</Item>
+      <Item>10\Puzzle10_7</Item>
+      <Item>10\Puzzle10_8</Item>
+      <Item>10\Puzzle10_9</Item>
+      <Item>10\Puzzle10_10</Item>
+
+      <Item>11\Puzzle11_1</Item>
+      <Item>11\Puzzle11_2</Item>
+      <Item>11\Puzzle11_3</Item>
+      <Item>11\Puzzle11_4</Item>
+      <Item>11\Puzzle11_5</Item>
+      <Item>11\Puzzle11_6</Item>
+      <Item>11\Puzzle11_7</Item>
+      <Item>11\Puzzle11_8</Item>
+      <Item>11\Puzzle11_9</Item>
+      <Item>11\Puzzle11_10</Item>
+
+      <Item>12\Puzzle12_1</Item>
+      <Item>12\Puzzle12_2</Item>
+      <Item>12\Puzzle12_3</Item>
+      <Item>12\Puzzle12_4</Item>
+      <Item>12\Puzzle12_5</Item>
+      <Item>12\Puzzle12_6</Item>
+      <Item>12\Puzzle12_7</Item>
+      <Item>12\Puzzle12_8</Item>
+      <Item>12\Puzzle12_9</Item>
+      <Item>12\Puzzle12_10</Item>
+
+      <Item>sh\Puzzle_sh01</Item>
+      <Item>sh\Puzzle_sh02</Item>
+      <Item>sh\Puzzle_sh04</Item>
+      <Item>sh\Puzzle_sh05</Item>
+      <Item>sh\Puzzle_sh06</Item>
+      <Item>sh\Puzzle_sh07</Item>
+      <Item>sh\Puzzle_sh08</Item>
+      <Item>sh\Puzzle_sh09</Item>
+      <Item>sh\Puzzle_sh10</Item>
+      <Item>sh\Puzzle_sh11</Item>
+      <Item>sh\Puzzle_sh12</Item>
+    </PuzzleContentNames>
+
+    <ShapeContentNames>
+      <Item>Shape01</Item>
+      <Item>Shape02</Item>
+      <Item>Shape03</Item>
+      <Item>Shape04</Item>
+      <Item>Shape05</Item>
+      <Item>Shape06</Item>
+      <Item>Shape07</Item>
+      <Item>Shape08</Item>
+      <Item>Shape09</Item>
+      <Item>Shape10</Item>
+      <Item>Shape11</Item>
+      <Item>Shape12</Item>
+    </ShapeContentNames>
+  </Asset>
+</XnaContent>

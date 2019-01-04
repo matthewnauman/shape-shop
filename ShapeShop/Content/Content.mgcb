@@ -1,0 +1,2378 @@
+
+#----------------------------- Global Properties ----------------------------#
+
+/outputDir:bin/$(Platform)
+/intermediateDir:obj/$(Platform)
+/platform:WindowsStoreApp
+/config:
+/profile:Reach
+/compress:False
+
+#-------------------------------- References --------------------------------#
+
+/reference:..\..\ShapeShopData\bin\Debug\netstandard2.0\ShapeShopData.dll
+
+#---------------------------------- Content ---------------------------------#
+
+#begin Effects/SepiaScreen.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:Effects/SepiaScreen.fx
+
+#begin Fonts/console20Font.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Compressed
+/build:Fonts/console20Font.spritefont
+
+#begin Fonts/console22Font.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Compressed
+/build:Fonts/console22Font.spritefont
+
+#begin Fonts/console24Font.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Compressed
+/build:Fonts/console24Font.spritefont
+
+#begin Fonts/console28Font.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Compressed
+/build:Fonts/console28Font.spritefont
+
+#begin Fonts/console30BoldFont.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Compressed
+/build:Fonts/console30BoldFont.spritefont
+
+#begin Fonts/console36Font.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Compressed
+/build:Fonts/console36Font.spritefont
+
+#begin Fonts/console42Font.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Compressed
+/build:Fonts/console42Font.spritefont
+
+#begin Fonts/console48Font.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Compressed
+/build:Fonts/console48Font.spritefont
+
+#begin Fonts/console72OLBFont.bmp
+/importer:TextureImporter
+/processor:FontTextureProcessor
+/processorParam:FirstCharacter= 
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color
+/build:Fonts/console72OLBFont.bmp
+
+#begin Fonts/debugCoordinateFont.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Compressed
+/build:Fonts/debugCoordinateFont.spritefont
+
+#begin Fonts/debugPanelFont.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Compressed
+/build:Fonts/debugPanelFont.spritefont
+
+#begin Fonts/debugPanelMenuFont.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Compressed
+/build:Fonts/debugPanelMenuFont.spritefont
+
+#begin Fonts/debugPanelSmFont.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Compressed
+/build:Fonts/debugPanelSmFont.spritefont
+
+#begin Fonts/frameRateCounterFont.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Compressed
+/build:Fonts/frameRateCounterFont.spritefont
+
+#begin Fonts/messageBoxButtonFont.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Compressed
+/build:Fonts/messageBoxButtonFont.spritefont
+
+#begin Fonts/messageBoxMessageFont.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Compressed
+/build:Fonts/messageBoxMessageFont.spritefont
+
+#begin NewGameDescription.xml
+/importer:XmlImporter
+/processor:PassThroughProcessor
+/build:NewGameDescription.xml
+
+#begin Puzzles/10/Puzzle10_1.xml
+/importer:XmlImporter
+/processor:PassThroughProcessor
+/build:Puzzles/10/Puzzle10_1.xml
+
+#begin Puzzles/10/Puzzle10_10.xml
+/importer:XmlImporter
+/processor:PassThroughProcessor
+/build:Puzzles/10/Puzzle10_10.xml
+
+#begin Puzzles/10/Puzzle10_2.xml
+/importer:XmlImporter
+/processor:PassThroughProcessor
+/build:Puzzles/10/Puzzle10_2.xml
+
+#begin Puzzles/10/Puzzle10_3.xml
+/importer:XmlImporter
+/processor:PassThroughProcessor
+/build:Puzzles/10/Puzzle10_3.xml
+
+#begin Puzzles/10/Puzzle10_4.xml
+/importer:XmlImporter
+/processor:PassThroughProcessor
+/build:Puzzles/10/Puzzle10_4.xml
+
+#begin Puzzles/10/Puzzle10_5.xml
+/importer:XmlImporter
+/processor:PassThroughProcessor
+/build:Puzzles/10/Puzzle10_5.xml
+
+#begin Puzzles/10/Puzzle10_6.xml
+/importer:XmlImporter
+/processor:PassThroughProcessor
+/build:Puzzles/10/Puzzle10_6.xml
+
+#begin Puzzles/10/Puzzle10_7.xml
+/importer:XmlImporter
+/processor:PassThroughProcessor
+/build:Puzzles/10/Puzzle10_7.xml
+
+#begin Puzzles/10/Puzzle10_8.xml
+/importer:XmlImporter
+/processor:PassThroughProcessor
+/build:Puzzles/10/Puzzle10_8.xml
+
+#begin Puzzles/10/Puzzle10_9.xml
+/importer:XmlImporter
+/processor:PassThroughProcessor
+/build:Puzzles/10/Puzzle10_9.xml
+
+#begin Puzzles/11/Puzzle11_1.xml
+/importer:XmlImporter
+/processor:PassThroughProcessor
+/build:Puzzles/11/Puzzle11_1.xml
+
+#begin Puzzles/11/Puzzle11_10.xml
+/importer:XmlImporter
+/processor:PassThroughProcessor
+/build:Puzzles/11/Puzzle11_10.xml
+
+#begin Puzzles/11/Puzzle11_2.xml
+/importer:XmlImporter
+/processor:PassThroughProcessor
+/build:Puzzles/11/Puzzle11_2.xml
+
+#begin Puzzles/11/Puzzle11_3.xml
+/importer:XmlImporter
+/processor:PassThroughProcessor
+/build:Puzzles/11/Puzzle11_3.xml
+
+#begin Puzzles/11/Puzzle11_4.xml
+/importer:XmlImporter
+/processor:PassThroughProcessor
+/build:Puzzles/11/Puzzle11_4.xml
+
+#begin Puzzles/11/Puzzle11_5.xml
+/importer:XmlImporter
+/processor:PassThroughProcessor
+/build:Puzzles/11/Puzzle11_5.xml
+
+#begin Puzzles/11/Puzzle11_6.xml
+/importer:XmlImporter
+/processor:PassThroughProcessor
+/build:Puzzles/11/Puzzle11_6.xml
+
+#begin Puzzles/11/Puzzle11_7.xml
+/importer:XmlImporter
+/processor:PassThroughProcessor
+/build:Puzzles/11/Puzzle11_7.xml
+
+#begin Puzzles/11/Puzzle11_8.xml
+/importer:XmlImporter
+/processor:PassThroughProcessor
+/build:Puzzles/11/Puzzle11_8.xml
+
+#begin Puzzles/11/Puzzle11_9.xml
+/importer:XmlImporter
+/processor:PassThroughProcessor
+/build:Puzzles/11/Puzzle11_9.xml
+
+#begin Puzzles/12/Puzzle12_1.xml
+/importer:XmlImporter
+/processor:PassThroughProcessor
+/build:Puzzles/12/Puzzle12_1.xml
+
+#begin Puzzles/12/Puzzle12_10.xml
+/importer:XmlImporter
+/processor:PassThroughProcessor
+/build:Puzzles/12/Puzzle12_10.xml
+
+#begin Puzzles/12/Puzzle12_2.xml
+/importer:XmlImporter
+/processor:PassThroughProcessor
+/build:Puzzles/12/Puzzle12_2.xml
+
+#begin Puzzles/12/Puzzle12_3.xml
+/importer:XmlImporter
+/processor:PassThroughProcessor
+/build:Puzzles/12/Puzzle12_3.xml
+
+#begin Puzzles/12/Puzzle12_4.xml
+/importer:XmlImporter
+/processor:PassThroughProcessor
+/build:Puzzles/12/Puzzle12_4.xml
+
+#begin Puzzles/12/Puzzle12_5.xml
+/importer:XmlImporter
+/processor:PassThroughProcessor
+/build:Puzzles/12/Puzzle12_5.xml
+
+#begin Puzzles/12/Puzzle12_6.xml
+/importer:XmlImporter
+/processor:PassThroughProcessor
+/build:Puzzles/12/Puzzle12_6.xml
+
+#begin Puzzles/12/Puzzle12_7.xml
+/importer:XmlImporter
+/processor:PassThroughProcessor
+/build:Puzzles/12/Puzzle12_7.xml
+
+#begin Puzzles/12/Puzzle12_8.xml
+/importer:XmlImporter
+/processor:PassThroughProcessor
+/build:Puzzles/12/Puzzle12_8.xml
+
+#begin Puzzles/12/Puzzle12_9.xml
+/importer:XmlImporter
+/processor:PassThroughProcessor
+/build:Puzzles/12/Puzzle12_9.xml
+
+#begin Puzzles/3/Puzzle3_1.xml
+/importer:XmlImporter
+/processor:PassThroughProcessor
+/build:Puzzles/3/Puzzle3_1.xml
+
+#begin Puzzles/3/Puzzle3_10.xml
+/importer:XmlImporter
+/processor:PassThroughProcessor
+/build:Puzzles/3/Puzzle3_10.xml
+
+#begin Puzzles/3/Puzzle3_2.xml
+/importer:XmlImporter
+/processor:PassThroughProcessor
+/build:Puzzles/3/Puzzle3_2.xml
+
+#begin Puzzles/3/Puzzle3_3.xml
+/importer:XmlImporter
+/processor:PassThroughProcessor
+/build:Puzzles/3/Puzzle3_3.xml
+
+#begin Puzzles/3/Puzzle3_4.xml
+/importer:XmlImporter
+/processor:PassThroughProcessor
+/build:Puzzles/3/Puzzle3_4.xml
+
+#begin Puzzles/3/Puzzle3_5.xml
+/importer:XmlImporter
+/processor:PassThroughProcessor
+/build:Puzzles/3/Puzzle3_5.xml
+
+#begin Puzzles/3/Puzzle3_6.xml
+/importer:XmlImporter
+/processor:PassThroughProcessor
+/build:Puzzles/3/Puzzle3_6.xml
+
+#begin Puzzles/3/Puzzle3_7.xml
+/importer:XmlImporter
+/processor:PassThroughProcessor
+/build:Puzzles/3/Puzzle3_7.xml
+
+#begin Puzzles/3/Puzzle3_8.xml
+/importer:XmlImporter
+/processor:PassThroughProcessor
+/build:Puzzles/3/Puzzle3_8.xml
+
+#begin Puzzles/3/Puzzle3_9.xml
+/importer:XmlImporter
+/processor:PassThroughProcessor
+/build:Puzzles/3/Puzzle3_9.xml
+
+#begin Puzzles/4/Puzzle4_1.xml
+/importer:XmlImporter
+/processor:PassThroughProcessor
+/build:Puzzles/4/Puzzle4_1.xml
+
+#begin Puzzles/4/Puzzle4_10.xml
+/importer:XmlImporter
+/processor:PassThroughProcessor
+/build:Puzzles/4/Puzzle4_10.xml
+
+#begin Puzzles/4/Puzzle4_2.xml
+/importer:XmlImporter
+/processor:PassThroughProcessor
+/build:Puzzles/4/Puzzle4_2.xml
+
+#begin Puzzles/4/Puzzle4_3.xml
+/importer:XmlImporter
+/processor:PassThroughProcessor
+/build:Puzzles/4/Puzzle4_3.xml
+
+#begin Puzzles/4/Puzzle4_4.xml
+/importer:XmlImporter
+/processor:PassThroughProcessor
+/build:Puzzles/4/Puzzle4_4.xml
+
+#begin Puzzles/4/Puzzle4_5.xml
+/importer:XmlImporter
+/processor:PassThroughProcessor
+/build:Puzzles/4/Puzzle4_5.xml
+
+#begin Puzzles/4/Puzzle4_6.xml
+/importer:XmlImporter
+/processor:PassThroughProcessor
+/build:Puzzles/4/Puzzle4_6.xml
+
+#begin Puzzles/4/Puzzle4_7.xml
+/importer:XmlImporter
+/processor:PassThroughProcessor
+/build:Puzzles/4/Puzzle4_7.xml
+
+#begin Puzzles/4/Puzzle4_8.xml
+/importer:XmlImporter
+/processor:PassThroughProcessor
+/build:Puzzles/4/Puzzle4_8.xml
+
+#begin Puzzles/4/Puzzle4_9.xml
+/importer:XmlImporter
+/processor:PassThroughProcessor
+/build:Puzzles/4/Puzzle4_9.xml
+
+#begin Puzzles/5/Puzzle5_1.xml
+/importer:XmlImporter
+/processor:PassThroughProcessor
+/build:Puzzles/5/Puzzle5_1.xml
+
+#begin Puzzles/5/Puzzle5_10.xml
+/importer:XmlImporter
+/processor:PassThroughProcessor
+/build:Puzzles/5/Puzzle5_10.xml
+
+#begin Puzzles/5/Puzzle5_2.xml
+/importer:XmlImporter
+/processor:PassThroughProcessor
+/build:Puzzles/5/Puzzle5_2.xml
+
+#begin Puzzles/5/Puzzle5_3.xml
+/importer:XmlImporter
+/processor:PassThroughProcessor
+/build:Puzzles/5/Puzzle5_3.xml
+
+#begin Puzzles/5/Puzzle5_4.xml
+/importer:XmlImporter
+/processor:PassThroughProcessor
+/build:Puzzles/5/Puzzle5_4.xml
+
+#begin Puzzles/5/Puzzle5_5.xml
+/importer:XmlImporter
+/processor:PassThroughProcessor
+/build:Puzzles/5/Puzzle5_5.xml
+
+#begin Puzzles/5/Puzzle5_6.xml
+/importer:XmlImporter
+/processor:PassThroughProcessor
+/build:Puzzles/5/Puzzle5_6.xml
+
+#begin Puzzles/5/Puzzle5_7.xml
+/importer:XmlImporter
+/processor:PassThroughProcessor
+/build:Puzzles/5/Puzzle5_7.xml
+
+#begin Puzzles/5/Puzzle5_8.xml
+/importer:XmlImporter
+/processor:PassThroughProcessor
+/build:Puzzles/5/Puzzle5_8.xml
+
+#begin Puzzles/5/Puzzle5_9.xml
+/importer:XmlImporter
+/processor:PassThroughProcessor
+/build:Puzzles/5/Puzzle5_9.xml
+
+#begin Puzzles/6/Puzzle6_1.xml
+/importer:XmlImporter
+/processor:PassThroughProcessor
+/build:Puzzles/6/Puzzle6_1.xml
+
+#begin Puzzles/6/Puzzle6_10.xml
+/importer:XmlImporter
+/processor:PassThroughProcessor
+/build:Puzzles/6/Puzzle6_10.xml
+
+#begin Puzzles/6/Puzzle6_2.xml
+/importer:XmlImporter
+/processor:PassThroughProcessor
+/build:Puzzles/6/Puzzle6_2.xml
+
+#begin Puzzles/6/Puzzle6_3.xml
+/importer:XmlImporter
+/processor:PassThroughProcessor
+/build:Puzzles/6/Puzzle6_3.xml
+
+#begin Puzzles/6/Puzzle6_4.xml
+/importer:XmlImporter
+/processor:PassThroughProcessor
+/build:Puzzles/6/Puzzle6_4.xml
+
+#begin Puzzles/6/Puzzle6_5.xml
+/importer:XmlImporter
+/processor:PassThroughProcessor
+/build:Puzzles/6/Puzzle6_5.xml
+
+#begin Puzzles/6/Puzzle6_6.xml
+/importer:XmlImporter
+/processor:PassThroughProcessor
+/build:Puzzles/6/Puzzle6_6.xml
+
+#begin Puzzles/6/Puzzle6_7.xml
+/importer:XmlImporter
+/processor:PassThroughProcessor
+/build:Puzzles/6/Puzzle6_7.xml
+
+#begin Puzzles/6/Puzzle6_8.xml
+/importer:XmlImporter
+/processor:PassThroughProcessor
+/build:Puzzles/6/Puzzle6_8.xml
+
+#begin Puzzles/6/Puzzle6_9.xml
+/importer:XmlImporter
+/processor:PassThroughProcessor
+/build:Puzzles/6/Puzzle6_9.xml
+
+#begin Puzzles/7/Puzzle7_1.xml
+/importer:XmlImporter
+/processor:PassThroughProcessor
+/build:Puzzles/7/Puzzle7_1.xml
+
+#begin Puzzles/7/Puzzle7_10.xml
+/importer:XmlImporter
+/processor:PassThroughProcessor
+/build:Puzzles/7/Puzzle7_10.xml
+
+#begin Puzzles/7/Puzzle7_2.xml
+/importer:XmlImporter
+/processor:PassThroughProcessor
+/build:Puzzles/7/Puzzle7_2.xml
+
+#begin Puzzles/7/Puzzle7_3.xml
+/importer:XmlImporter
+/processor:PassThroughProcessor
+/build:Puzzles/7/Puzzle7_3.xml
+
+#begin Puzzles/7/Puzzle7_4.xml
+/importer:XmlImporter
+/processor:PassThroughProcessor
+/build:Puzzles/7/Puzzle7_4.xml
+
+#begin Puzzles/7/Puzzle7_5.xml
+/importer:XmlImporter
+/processor:PassThroughProcessor
+/build:Puzzles/7/Puzzle7_5.xml
+
+#begin Puzzles/7/Puzzle7_6.xml
+/importer:XmlImporter
+/processor:PassThroughProcessor
+/build:Puzzles/7/Puzzle7_6.xml
+
+#begin Puzzles/7/Puzzle7_7.xml
+/importer:XmlImporter
+/processor:PassThroughProcessor
+/build:Puzzles/7/Puzzle7_7.xml
+
+#begin Puzzles/7/Puzzle7_8.xml
+/importer:XmlImporter
+/processor:PassThroughProcessor
+/build:Puzzles/7/Puzzle7_8.xml
+
+#begin Puzzles/7/Puzzle7_9.xml
+/importer:XmlImporter
+/processor:PassThroughProcessor
+/build:Puzzles/7/Puzzle7_9.xml
+
+#begin Puzzles/8/Puzzle8_1.xml
+/importer:XmlImporter
+/processor:PassThroughProcessor
+/build:Puzzles/8/Puzzle8_1.xml
+
+#begin Puzzles/8/Puzzle8_10.xml
+/importer:XmlImporter
+/processor:PassThroughProcessor
+/build:Puzzles/8/Puzzle8_10.xml
+
+#begin Puzzles/8/Puzzle8_2.xml
+/importer:XmlImporter
+/processor:PassThroughProcessor
+/build:Puzzles/8/Puzzle8_2.xml
+
+#begin Puzzles/8/Puzzle8_3.xml
+/importer:XmlImporter
+/processor:PassThroughProcessor
+/build:Puzzles/8/Puzzle8_3.xml
+
+#begin Puzzles/8/Puzzle8_4.xml
+/importer:XmlImporter
+/processor:PassThroughProcessor
+/build:Puzzles/8/Puzzle8_4.xml
+
+#begin Puzzles/8/Puzzle8_5.xml
+/importer:XmlImporter
+/processor:PassThroughProcessor
+/build:Puzzles/8/Puzzle8_5.xml
+
+#begin Puzzles/8/Puzzle8_6.xml
+/importer:XmlImporter
+/processor:PassThroughProcessor
+/build:Puzzles/8/Puzzle8_6.xml
+
+#begin Puzzles/8/Puzzle8_7.xml
+/importer:XmlImporter
+/processor:PassThroughProcessor
+/build:Puzzles/8/Puzzle8_7.xml
+
+#begin Puzzles/8/Puzzle8_8.xml
+/importer:XmlImporter
+/processor:PassThroughProcessor
+/build:Puzzles/8/Puzzle8_8.xml
+
+#begin Puzzles/8/Puzzle8_9.xml
+/importer:XmlImporter
+/processor:PassThroughProcessor
+/build:Puzzles/8/Puzzle8_9.xml
+
+#begin Puzzles/9/Puzzle9_1.xml
+/importer:XmlImporter
+/processor:PassThroughProcessor
+/build:Puzzles/9/Puzzle9_1.xml
+
+#begin Puzzles/9/Puzzle9_10.xml
+/importer:XmlImporter
+/processor:PassThroughProcessor
+/build:Puzzles/9/Puzzle9_10.xml
+
+#begin Puzzles/9/Puzzle9_2.xml
+/importer:XmlImporter
+/processor:PassThroughProcessor
+/build:Puzzles/9/Puzzle9_2.xml
+
+#begin Puzzles/9/Puzzle9_3.xml
+/importer:XmlImporter
+/processor:PassThroughProcessor
+/build:Puzzles/9/Puzzle9_3.xml
+
+#begin Puzzles/9/Puzzle9_4.xml
+/importer:XmlImporter
+/processor:PassThroughProcessor
+/build:Puzzles/9/Puzzle9_4.xml
+
+#begin Puzzles/9/Puzzle9_5.xml
+/importer:XmlImporter
+/processor:PassThroughProcessor
+/build:Puzzles/9/Puzzle9_5.xml
+
+#begin Puzzles/9/Puzzle9_6.xml
+/importer:XmlImporter
+/processor:PassThroughProcessor
+/build:Puzzles/9/Puzzle9_6.xml
+
+#begin Puzzles/9/Puzzle9_7.xml
+/importer:XmlImporter
+/processor:PassThroughProcessor
+/build:Puzzles/9/Puzzle9_7.xml
+
+#begin Puzzles/9/Puzzle9_8.xml
+/importer:XmlImporter
+/processor:PassThroughProcessor
+/build:Puzzles/9/Puzzle9_8.xml
+
+#begin Puzzles/9/Puzzle9_9.xml
+/importer:XmlImporter
+/processor:PassThroughProcessor
+/build:Puzzles/9/Puzzle9_9.xml
+
+#begin Puzzles/sh/Puzzle_sh01.xml
+/importer:XmlImporter
+/processor:PassThroughProcessor
+/build:Puzzles/sh/Puzzle_sh01.xml
+
+#begin Puzzles/sh/Puzzle_sh02.xml
+/importer:XmlImporter
+/processor:PassThroughProcessor
+/build:Puzzles/sh/Puzzle_sh02.xml
+
+#begin Puzzles/sh/Puzzle_sh03.xml
+/importer:XmlImporter
+/processor:PassThroughProcessor
+/build:Puzzles/sh/Puzzle_sh03.xml
+
+#begin Puzzles/sh/Puzzle_sh04.xml
+/importer:XmlImporter
+/processor:PassThroughProcessor
+/build:Puzzles/sh/Puzzle_sh04.xml
+
+#begin Puzzles/sh/Puzzle_sh05.xml
+/importer:XmlImporter
+/processor:PassThroughProcessor
+/build:Puzzles/sh/Puzzle_sh05.xml
+
+#begin Puzzles/sh/Puzzle_sh06.xml
+/importer:XmlImporter
+/processor:PassThroughProcessor
+/build:Puzzles/sh/Puzzle_sh06.xml
+
+#begin Puzzles/sh/Puzzle_sh07.xml
+/importer:XmlImporter
+/processor:PassThroughProcessor
+/build:Puzzles/sh/Puzzle_sh07.xml
+
+#begin Puzzles/sh/Puzzle_sh08.xml
+/importer:XmlImporter
+/processor:PassThroughProcessor
+/build:Puzzles/sh/Puzzle_sh08.xml
+
+#begin Puzzles/sh/Puzzle_sh09.xml
+/importer:XmlImporter
+/processor:PassThroughProcessor
+/build:Puzzles/sh/Puzzle_sh09.xml
+
+#begin Puzzles/sh/Puzzle_sh10.xml
+/importer:XmlImporter
+/processor:PassThroughProcessor
+/build:Puzzles/sh/Puzzle_sh10.xml
+
+#begin Puzzles/sh/Puzzle_sh11.xml
+/importer:XmlImporter
+/processor:PassThroughProcessor
+/build:Puzzles/sh/Puzzle_sh11.xml
+
+#begin Puzzles/sh/Puzzle_sh12.xml
+/importer:XmlImporter
+/processor:PassThroughProcessor
+/build:Puzzles/sh/Puzzle_sh12.xml
+
+#begin PuzzleSets/PuzzleSetDev.xml
+/importer:XmlImporter
+/processor:PassThroughProcessor
+/build:PuzzleSets/PuzzleSetDev.xml
+
+#begin PuzzleSets/PuzzleSetFull.xml
+/importer:XmlImporter
+/processor:PassThroughProcessor
+/build:PuzzleSets/PuzzleSetFull.xml
+
+#begin Shapes/Shape01.xml
+/importer:XmlImporter
+/processor:PassThroughProcessor
+/build:Shapes/Shape01.xml
+
+#begin Shapes/Shape02.xml
+/importer:XmlImporter
+/processor:PassThroughProcessor
+/build:Shapes/Shape02.xml
+
+#begin Shapes/Shape03.xml
+/importer:XmlImporter
+/processor:PassThroughProcessor
+/build:Shapes/Shape03.xml
+
+#begin Shapes/Shape04.xml
+/importer:XmlImporter
+/processor:PassThroughProcessor
+/build:Shapes/Shape04.xml
+
+#begin Shapes/Shape05.xml
+/importer:XmlImporter
+/processor:PassThroughProcessor
+/build:Shapes/Shape05.xml
+
+#begin Shapes/Shape06.xml
+/importer:XmlImporter
+/processor:PassThroughProcessor
+/build:Shapes/Shape06.xml
+
+#begin Shapes/Shape07.xml
+/importer:XmlImporter
+/processor:PassThroughProcessor
+/build:Shapes/Shape07.xml
+
+#begin Shapes/Shape08.xml
+/importer:XmlImporter
+/processor:PassThroughProcessor
+/build:Shapes/Shape08.xml
+
+#begin Shapes/Shape09.xml
+/importer:XmlImporter
+/processor:PassThroughProcessor
+/build:Shapes/Shape09.xml
+
+#begin Shapes/Shape10.xml
+/importer:XmlImporter
+/processor:PassThroughProcessor
+/build:Shapes/Shape10.xml
+
+#begin Shapes/Shape11.xml
+/importer:XmlImporter
+/processor:PassThroughProcessor
+/build:Shapes/Shape11.xml
+
+#begin Shapes/Shape12.xml
+/importer:XmlImporter
+/processor:PassThroughProcessor
+/build:Shapes/Shape12.xml
+
+#begin Textures/1x1.jpg
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/1x1.jpg
+
+#begin Textures/1x1-trans.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/1x1-trans.png
+
+#begin Textures/Buttons/AButton.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Buttons/AButton.png
+
+#begin Textures/Buttons/BackButton.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Buttons/BackButton.png
+
+#begin Textures/Buttons/BButton.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Buttons/BButton.png
+
+#begin Textures/Buttons/dpad.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Buttons/dpad.png
+
+#begin Textures/Buttons/LeftBumperButton.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Buttons/LeftBumperButton.png
+
+#begin Textures/Buttons/LeftStick.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Buttons/LeftStick.png
+
+#begin Textures/Buttons/LeftTriggerButton.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Buttons/LeftTriggerButton.png
+
+#begin Textures/Buttons/RightBumperButton.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Buttons/RightBumperButton.png
+
+#begin Textures/Buttons/RightStick.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Buttons/RightStick.png
+
+#begin Textures/Buttons/RightTriggerButton.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Buttons/RightTriggerButton.png
+
+#begin Textures/Buttons/StartButton.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Buttons/StartButton.png
+
+#begin Textures/Buttons/XButton.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Buttons/XButton.png
+
+#begin Textures/Buttons/YButton.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Buttons/YButton.png
+
+#begin Textures/Cogs/cog01.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Cogs/cog01.png
+
+#begin Textures/Cogs/cog01bolt.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Cogs/cog01bolt.png
+
+#begin Textures/Cogs/cog02.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Cogs/cog02.png
+
+#begin Textures/Cogs/cog02bolt.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Cogs/cog02bolt.png
+
+#begin Textures/Cogs/cog03.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Cogs/cog03.png
+
+#begin Textures/Cogs/cog03bolt.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Cogs/cog03bolt.png
+
+#begin Textures/Cogs/cog04.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Cogs/cog04.png
+
+#begin Textures/Cogs/cog05.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Cogs/cog05.png
+
+#begin Textures/Cogs/cog06.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Cogs/cog06.png
+
+#begin Textures/Cogs/cog07.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Cogs/cog07.png
+
+#begin Textures/Cogs/cog07bolt.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Cogs/cog07bolt.png
+
+#begin Textures/Cogs/pArm.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Cogs/pArm.png
+
+#begin Textures/Cogs/pCog1.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Cogs/pCog1.png
+
+#begin Textures/Cogs/pCog10.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Cogs/pCog10.png
+
+#begin Textures/Cogs/pCog11.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Cogs/pCog11.png
+
+#begin Textures/Cogs/pCog12.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Cogs/pCog12.png
+
+#begin Textures/Cogs/pCog2.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Cogs/pCog2.png
+
+#begin Textures/Cogs/pCog3.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Cogs/pCog3.png
+
+#begin Textures/Cogs/pCog4.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Cogs/pCog4.png
+
+#begin Textures/Cogs/pCog5.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Cogs/pCog5.png
+
+#begin Textures/Cogs/pCog6.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Cogs/pCog6.png
+
+#begin Textures/Cogs/pCog7.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Cogs/pCog7.png
+
+#begin Textures/Cogs/pCog8.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Cogs/pCog8.png
+
+#begin Textures/Cogs/pCog9.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Cogs/pCog9.png
+
+#begin Textures/Cogs/pCogArm1.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Cogs/pCogArm1.png
+
+#begin Textures/Cogs/pCogArm11.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Cogs/pCogArm11.png
+
+#begin Textures/Cogs/pCogArm5.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Cogs/pCogArm5.png
+
+#begin Textures/Cogs/pCogArm7.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Cogs/pCogArm7.png
+
+#begin Textures/Cogs/pCogSelector.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Cogs/pCogSelector.png
+
+#begin Textures/Cogs/pickerCog.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Cogs/pickerCog.png
+
+#begin Textures/Cogs/smCog01.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Cogs/smCog01.png
+
+#begin Textures/Cogs/smCogPlate01.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Cogs/smCogPlate01.png
+
+#begin Textures/cursor.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/cursor.png
+
+#begin Textures/Debug/DebugTile.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Debug/DebugTile.png
+
+#begin Textures/GameScreens/disk.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/GameScreens/disk.png
+
+#begin Textures/GameScreens/endGamePanelFrame.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/GameScreens/endGamePanelFrame.png
+
+#begin Textures/GameScreens/FadeScreen.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/GameScreens/FadeScreen.png
+
+#begin Textures/GameScreens/helpPopupLarge.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/GameScreens/helpPopupLarge.png
+
+#begin Textures/GameScreens/helpPopupSmall.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/GameScreens/helpPopupSmall.png
+
+#begin Textures/GameScreens/introBackground.jpg
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/GameScreens/introBackground.jpg
+
+#begin Textures/GameScreens/introDoorLeft.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/GameScreens/introDoorLeft.png
+
+#begin Textures/GameScreens/introDoorLeftShadow.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/GameScreens/introDoorLeftShadow.png
+
+#begin Textures/GameScreens/introDoorRight.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/GameScreens/introDoorRight.png
+
+#begin Textures/GameScreens/introDoorRightShadow.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/GameScreens/introDoorRightShadow.png
+
+#begin Textures/GameScreens/introDoorsBackground.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/GameScreens/introDoorsBackground.png
+
+#begin Textures/GameScreens/largePopup.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/GameScreens/largePopup.png
+
+#begin Textures/GameScreens/Picker/pickerFace.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/GameScreens/Picker/pickerFace.png
+
+#begin Textures/GameScreens/Picker/pickerFaceBolt.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/GameScreens/Picker/pickerFaceBolt.png
+
+#begin Textures/GameScreens/Picker/pickerLockedConsole.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/GameScreens/Picker/pickerLockedConsole.png
+
+#begin Textures/GameScreens/Picker/pickerTemp.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/GameScreens/Picker/pickerTemp.png
+
+#begin Textures/GameScreens/popup.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/GameScreens/popup.png
+
+#begin Textures/GameScreens/Puzzle/bgfg/bg1.jpg
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/GameScreens/Puzzle/bgfg/bg1.jpg
+
+#begin Textures/GameScreens/Puzzle/bgfg/bg10.jpg
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/GameScreens/Puzzle/bgfg/bg10.jpg
+
+#begin Textures/GameScreens/Puzzle/bgfg/bg11.jpg
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/GameScreens/Puzzle/bgfg/bg11.jpg
+
+#begin Textures/GameScreens/Puzzle/bgfg/bg12.jpg
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/GameScreens/Puzzle/bgfg/bg12.jpg
+
+#begin Textures/GameScreens/Puzzle/bgfg/bg2.jpg
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/GameScreens/Puzzle/bgfg/bg2.jpg
+
+#begin Textures/GameScreens/Puzzle/bgfg/bg3.jpg
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/GameScreens/Puzzle/bgfg/bg3.jpg
+
+#begin Textures/GameScreens/Puzzle/bgfg/bg4.jpg
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/GameScreens/Puzzle/bgfg/bg4.jpg
+
+#begin Textures/GameScreens/Puzzle/bgfg/bg5.jpg
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/GameScreens/Puzzle/bgfg/bg5.jpg
+
+#begin Textures/GameScreens/Puzzle/bgfg/bg6.jpg
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/GameScreens/Puzzle/bgfg/bg6.jpg
+
+#begin Textures/GameScreens/Puzzle/bgfg/bg7.jpg
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/GameScreens/Puzzle/bgfg/bg7.jpg
+
+#begin Textures/GameScreens/Puzzle/bgfg/bg8.jpg
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/GameScreens/Puzzle/bgfg/bg8.jpg
+
+#begin Textures/GameScreens/Puzzle/bgfg/bg9.jpg
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/GameScreens/Puzzle/bgfg/bg9.jpg
+
+#begin Textures/GameScreens/Puzzle/bgfg/fg1.jpg
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/GameScreens/Puzzle/bgfg/fg1.jpg
+
+#begin Textures/GameScreens/Puzzle/bgfg/fg10.jpg
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/GameScreens/Puzzle/bgfg/fg10.jpg
+
+#begin Textures/GameScreens/Puzzle/bgfg/fg11.jpg
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/GameScreens/Puzzle/bgfg/fg11.jpg
+
+#begin Textures/GameScreens/Puzzle/bgfg/fg12.jpg
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/GameScreens/Puzzle/bgfg/fg12.jpg
+
+#begin Textures/GameScreens/Puzzle/bgfg/fg2.jpg
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/GameScreens/Puzzle/bgfg/fg2.jpg
+
+#begin Textures/GameScreens/Puzzle/bgfg/fg3.jpg
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/GameScreens/Puzzle/bgfg/fg3.jpg
+
+#begin Textures/GameScreens/Puzzle/bgfg/fg4.jpg
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/GameScreens/Puzzle/bgfg/fg4.jpg
+
+#begin Textures/GameScreens/Puzzle/bgfg/fg5.jpg
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/GameScreens/Puzzle/bgfg/fg5.jpg
+
+#begin Textures/GameScreens/Puzzle/bgfg/fg6.jpg
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/GameScreens/Puzzle/bgfg/fg6.jpg
+
+#begin Textures/GameScreens/Puzzle/bgfg/fg7.jpg
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/GameScreens/Puzzle/bgfg/fg7.jpg
+
+#begin Textures/GameScreens/Puzzle/bgfg/fg8.jpg
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/GameScreens/Puzzle/bgfg/fg8.jpg
+
+#begin Textures/GameScreens/Puzzle/bgfg/fg9.jpg
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/GameScreens/Puzzle/bgfg/fg9.jpg
+
+#begin Textures/GameScreens/Puzzle/puzzleFrame.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/GameScreens/Puzzle/puzzleFrame.png
+
+#begin Textures/GameScreens/Puzzle/puzzleStamp.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/GameScreens/Puzzle/puzzleStamp.png
+
+#begin Textures/GameScreens/Puzzle/puzzleTileSet.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/GameScreens/Puzzle/puzzleTileSet.png
+
+#begin Textures/GameScreens/slotPanel.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/GameScreens/slotPanel.png
+
+#begin Textures/GameScreens/slotSelector.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/GameScreens/slotSelector.png
+
+#begin Textures/GameScreens/smHelpPanel.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/GameScreens/smHelpPanel.png
+
+#begin Textures/GameScreens/splash.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/GameScreens/splash.png
+
+#begin Textures/GameScreens/track.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/GameScreens/track.png
+
+#begin Textures/Shapes/Shape1.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Shapes/Shape1.png
+
+#begin Textures/Shapes/Shape10.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Shapes/Shape10.png
+
+#begin Textures/Shapes/Shape10HL.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Shapes/Shape10HL.png
+
+#begin Textures/Shapes/Shape11.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Shapes/Shape11.png
+
+#begin Textures/Shapes/Shape11HL.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Shapes/Shape11HL.png
+
+#begin Textures/Shapes/Shape12.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Shapes/Shape12.png
+
+#begin Textures/Shapes/Shape12HL.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Shapes/Shape12HL.png
+
+#begin Textures/Shapes/Shape1HL.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Shapes/Shape1HL.png
+
+#begin Textures/Shapes/Shape2.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Shapes/Shape2.png
+
+#begin Textures/Shapes/Shape2HL.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Shapes/Shape2HL.png
+
+#begin Textures/Shapes/Shape3.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Shapes/Shape3.png
+
+#begin Textures/Shapes/Shape3HL.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Shapes/Shape3HL.png
+
+#begin Textures/Shapes/Shape4.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Shapes/Shape4.png
+
+#begin Textures/Shapes/Shape4HL.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Shapes/Shape4HL.png
+
+#begin Textures/Shapes/Shape5.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Shapes/Shape5.png
+
+#begin Textures/Shapes/Shape5HL.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Shapes/Shape5HL.png
+
+#begin Textures/Shapes/Shape6.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Shapes/Shape6.png
+
+#begin Textures/Shapes/Shape6HL.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Shapes/Shape6HL.png
+
+#begin Textures/Shapes/Shape7.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Shapes/Shape7.png
+
+#begin Textures/Shapes/Shape7HL.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Shapes/Shape7HL.png
+
+#begin Textures/Shapes/Shape8.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Shapes/Shape8.png
+
+#begin Textures/Shapes/Shape8HL.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Shapes/Shape8HL.png
+
+#begin Textures/Shapes/Shape9.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Shapes/Shape9.png
+
+#begin Textures/Shapes/Shape9HL.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Shapes/Shape9HL.png
+
+#begin Textures/Shapes/smShape1.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Shapes/smShape1.png
+
+#begin Textures/Shapes/smShape10.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Shapes/smShape10.png
+
+#begin Textures/Shapes/smShape11.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Shapes/smShape11.png
+
+#begin Textures/Shapes/smShape12.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Shapes/smShape12.png
+
+#begin Textures/Shapes/smShape2.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Shapes/smShape2.png
+
+#begin Textures/Shapes/smShape3.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Shapes/smShape3.png
+
+#begin Textures/Shapes/smShape4.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Shapes/smShape4.png
+
+#begin Textures/Shapes/smShape5.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Shapes/smShape5.png
+
+#begin Textures/Shapes/smShape6.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Shapes/smShape6.png
+
+#begin Textures/Shapes/smShape7.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Shapes/smShape7.png
+
+#begin Textures/Shapes/smShape8.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Shapes/smShape8.png
+
+#begin Textures/Shapes/smShape9.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Shapes/smShape9.png
+

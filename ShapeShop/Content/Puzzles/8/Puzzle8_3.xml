@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent xmlns:ns="Microsoft.Xna.Framework">
+  <Asset Type="ShapeShopData.Models.Puzzle">
+    <Name>I Dunno</Name>
+    <Key>83</Key>
+    <Dimensions>15 11</Dimensions>
+    <TileSize>48 48</TileSize>
+    <GridOrigin>280 96</GridOrigin>
+    <IsGridShiftX>true</IsGridShiftX>
+    <IsGridShiftY>false</IsGridShiftY>
+    <BgFgOrigin>298 114</BgFgOrigin>
+    <BackgroundTextureName>bg8</BackgroundTextureName>
+    <ForegroundTextureName>fg8</ForegroundTextureName>    
+    <MusicCueName />
+    <PuzzleLayer>
+      -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1
+      -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1
+      -1  -1   0   0   0   0   0   0   0  -1  -1  -1  -1  -1  -1
+      -1  -1   0   0   0   0   0   0   0  -1  -1  -1  -1  -1  -1
+      -1  -1   0   0   0   0   0   0   0  -1  -1  -1  -1  -1  -1
+      -1  -1   0   0   0   0   0   0   0  -1  -1  -1  -1  -1  -1
+      -1  -1  -1  -1  -1  -1  -1  -1   0   0   0   0  -1  -1  -1
+      -1  -1  -1  -1  -1  -1  -1  -1   0   0   0   0  -1  -1  -1
+      -1  -1  -1  -1  -1  -1  -1  -1   0   0   0   0  -1  -1  -1
+      -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1
+      -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1
+    </PuzzleLayer>
+    <TileLayer>
+      -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1
+      -1  13   1   1   1   1   1   1   1  14  -1  -1  -1  -1  -1
+      -1   4   0   0   0   0   0   0   0   2  -1  -1  -1  -1  -1
+      -1   4   0   0   0   0   0   0   0   2  -1  -1  -1  -1  -1
+      -1   4   0   0   0   0   0   0   0   2  -1  -1  -1  -1  -1
+      -1   4   0   0   0   0   0   0   0   6   1   1  14  -1  -1
+      -1  16   3   3   3   3   3   8   0   0   0   0   2  -1  -1
+      -1  -1  -1  -1  -1  -1  -1   4   0   0   0   0   2  -1  -1
+      -1  -1  -1  -1  -1  -1  -1   4   0   0   0   0   2  -1  -1
+      -1  -1  -1  -1  -1  -1  -1  16   3   3   3   3  15  -1  -1
+      -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1
+    </TileLayer>
+    <OurSolution>
+      <SolutionShapes>
+        <Item>
+          <OriginPoint>2 2</OriginPoint>
+          <ShapeKey>2</ShapeKey>
+          <IsFlippedHorizontal>false</IsFlippedHorizontal>
+          <IsFlippedVertical>true</IsFlippedVertical>
+          <RotationIdx>1</RotationIdx>
+        </Item>
+        <Item>
+          <OriginPoint>5 2</OriginPoint>
+          <ShapeKey>4</ShapeKey>
+          <IsFlippedHorizontal>false</IsFlippedHorizontal>
+          <IsFlippedVertical>false</IsFlippedVertical>
+          <RotationIdx>2</RotationIdx>
+        </Item>
+        <Item>
+          <OriginPoint>9 6</OriginPoint>
+          <ShapeKey>5</ShapeKey>
+          <IsFlippedHorizontal>false</IsFlippedHorizontal>
+          <IsFlippedVertical>false</IsFlippedVertical>
+          <RotationIdx>2</RotationIdx>
+        </Item>
+        <Item>
+          <OriginPoint>8 6</OriginPoint>
+          <ShapeKey>7</ShapeKey>
+          <IsFlippedHorizontal>false</IsFlippedHorizontal>
+          <IsFlippedVertical>false</IsFlippedVertical>
+          <RotationIdx>0</RotationIdx>
+        </Item>
+        <Item>
+          <OriginPoint>4 3</OriginPoint>
+          <ShapeKey>8</ShapeKey>
+          <IsFlippedHorizontal>false</IsFlippedHorizontal>
+          <IsFlippedVertical>false</IsFlippedVertical>
+          <RotationIdx>3</RotationIdx>
+        </Item>
+        <Item>
+          <OriginPoint>3 2</OriginPoint>
+          <ShapeKey>9</ShapeKey>
+          <IsFlippedHorizontal>false</IsFlippedHorizontal>
+          <IsFlippedVertical>true</IsFlippedVertical>
+          <RotationIdx>1</RotationIdx>
+        </Item>
+        <Item>
+          <OriginPoint>7 4</OriginPoint>
+          <ShapeKey>11</ShapeKey>
+          <IsFlippedHorizontal>true</IsFlippedHorizontal>
+          <IsFlippedVertical>false</IsFlippedVertical>
+          <RotationIdx>1</RotationIdx>
+        </Item>
+        <Item>
+          <OriginPoint>6 3</OriginPoint>
+          <ShapeKey>12</ShapeKey>
+          <IsFlippedHorizontal>false</IsFlippedHorizontal>
+          <IsFlippedVertical>false</IsFlippedVertical>
+          <RotationIdx>2</RotationIdx>
+        </Item>
+      </SolutionShapes>
+    </OurSolution>
+  </Asset>
+</XnaContent>
